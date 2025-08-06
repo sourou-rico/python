@@ -1,0 +1,2 @@
+fastapi ## Dépendence pour installer FastAPI
+uvicorn ## Serveur ASGI pour exécuter l'application FastAPI ou lancer le serveur de développement du projet
