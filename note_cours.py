@@ -175,3 +175,8 @@ fruits.sort(key=str.lower)  # Trie la liste par ordre alphabétique en ignorant 
 # uvicorn ## Serveur ASGI pour exécuter l'application FastAPI ou lancer le serveur de développement du projet
 
 # Pour lancer le serveur de développement du projet, il faut utiliser la commande **uvicorn nom_du_fichier(ici main):app --reload**. Le paramètre --reload permet de recharger le serveur à chaque modification du code.
+# pip install virtualenv
+# virtualenv namevenv
+# .\Scripts\activate
+# pip install -r requirements.txt
+# uvicorn main:app --reload
